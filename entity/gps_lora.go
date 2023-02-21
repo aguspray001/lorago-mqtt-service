@@ -7,4 +7,6 @@ type GPSLora struct {
 	GPSSpeed        float32 `json:"gps_speed"`
 	TransmitterRSSI int32   `json:"transmitter_rssi"`
 	ReceiverRSSI    int32   `json:"receiver_rssi"`
+	Count           int32   `json:"count"`
+	TimeValue       int32   `json:"timevalue"`
 }
